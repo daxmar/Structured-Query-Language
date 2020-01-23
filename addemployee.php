@@ -8,7 +8,7 @@
 		$sal = $_POST['salary'];
 		
 		//SQL Syntax
-		$sql = "INSERT INTO addemployee (name,position,salary) VALUES ('$name','$pos','$sal')";
+		$sql = "INSERT INTO employee (name,position,salary) VALUES ('$name','$pos','$sal')";
 		
 		//Import File Conection to the database
 		require_once('Conection.php');
